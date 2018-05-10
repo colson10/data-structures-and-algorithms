@@ -1,7 +1,7 @@
 'use strict';
 
 const checkMaxValue = (rootNode) => {
-  let maxValue = -Infinity;
+  let maxValue = rootNode.value;
 
   const findMaxValue = (node) => {
     if (!node) {
