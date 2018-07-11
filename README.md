@@ -6,4 +6,4 @@ This repository includes challenges and solutions from a variety of sources, inc
 
 https://www.codewars.com/users/colson10
 
-https://codefights.com/profile/colson10/stats
+https://app.codesignal.com/profile/colson10
