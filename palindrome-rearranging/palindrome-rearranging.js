@@ -1,3 +1,5 @@
+'use strict';
+
 const palindromeRearranging = (inputString) => {
   const map = new Map();
   let results = true;
