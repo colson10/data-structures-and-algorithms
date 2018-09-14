@@ -1,0 +1,51 @@
+# Reverse Words
+
+This was a practice problem I encountered recently where you're given an array of characters that make words with spaces. The goal is to reverse the order of words, preserving the spaces and do it in place.
+
+INPUT:
+[ 'p',
+  'e',
+  'r',
+  'f',
+  'e',
+  'c',
+  't',
+  ' ',
+  'm',
+  'a',
+  'k',
+  'e',
+  's',
+  ' ',
+  'p',
+  'r',
+  'a',
+  'c',
+  't',
+  'i',
+  'c',
+  'e' ]
+
+  OUTPUT:
+  [ 'p',
+  'r',
+  'a',
+  'c',
+  't',
+  'i',
+  'c',
+  'e',
+  ' ',
+  'm',
+  'a',
+  'k',
+  'e',
+  's',
+  ' ',
+  'p',
+  'e',
+  'r',
+  'f',
+  'e',
+  'c',
+  't' ]
