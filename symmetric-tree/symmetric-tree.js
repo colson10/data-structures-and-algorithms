@@ -1,3 +1,27 @@
+'use strict';
+
+const mirrorCheck = (node1, node2) => {
+  if (!node1 && !node2) {
+    return true;
+  }
+  if (!node1 || !node2) {
+    return false;   
+  }
+
+  return (
+    (node1.val === node2.val) 
+      && mirrorCheck(node1.left, node2.right) 
+      && mirrorCheck(node1.right, node2.left)
+  );     
+};
+
+const isSymmetricSimple = (root) => {
+  return mirrorCheck(root, root);
+};
+
+
+
+
 const isSymmetric = (root) => {
   if (!root) return true;
   if (!root.left && !root.right) return true;
@@ -39,4 +63,4 @@ const isSymmetric = (root) => {
   return true;
 };
 
-export default isSymmetric;
+export { isSymmetric, isSymmetricSimple };
